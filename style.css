@@ -3,3 +3,28 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+.chart-container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 0;
+  }
+  #legend {
+    list-style: none;
+    /* position: absolute; */
+    right: 0;
+    top: 0;
+    margin: 20px;
+  }
+  #legend li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  #legend li span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
