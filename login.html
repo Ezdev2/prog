@@ -17,44 +17,54 @@
       <div
         class="bg-transparent row justify-content-between align-items-center"
       >
-        <div style="height: 100vh; width: 100%" class="col-xxl-12 row">
+        <div
+          style="height: 100vh; width: 100%; justify-content: space-between"
+          class="col-xxl-12 row"
+        >
           <div
             class="px-1 bg-primary col-xxl-6 row justify-content-center align-items-center"
           >
             <img style="width: fit-content" src="./assets/log.svg" alt="" />
             <p
-              class="text-center text-white fs-5 fw-bold font-family-Gotham col-md-9 m-0 px-3 py-2"
+              class="text-center text-white fs-5 fw-semibold font-family-Montserrat col-md-9 m-0 px-3 py-2"
             >
               Plongez dans une exploration introspective et découvrez comment
               vos interactions sur Facebook influencent votre bien-être
               émotionnel.
             </p>
           </div>
-          <div
-            class="px-1 py-1 bg-transparent rounded-3 col-xxl-6 row justify-content-center align-items-center"
-          >
-            <div class="col-md-9 row align-items-center">
-              <p
-                class="text-primary fs-4 fw-bold font-family-Montserrat col-2 m-0 px-3 py-2"
+          <div class="px-4 py-2 bg-transparent rounded-3 col-xxl-6 row">
+            <div class="col-md-9">
+              <a
+                href="index.html"
+                style="text-decoration: none"
+                class="text-primary fs-4 fw-bold font-family-Montserrat col-2 m-0 py-2"
               >
                 MyApp
-              </p>
+              </a>
             </div>
-            <div class="col-md-9 row d-flex">
-              <p
-                class="text-dark fs-3 fw-bold font-family-Gotham col-12 m-0 px-3 py-2"
+            <div
+              style="display: flex; flex-direction: column; gap: 24px"
+              class=""
+            >
+              <div class="">
+                <p
+                  class="text-dark fs-3 fw-bold font-family-Gotham col-12 m-0 py-2"
+                >
+                  Se connecter
+                </p>
+                <p
+                  class="text-dark fs-6 fw-normal font-family-Montserrat col-12 m-0 py-2"
+                >
+                  Continuez votre inscription avec Facebook.
+                  <br />
+                </p>
+              </div>
+              <!--  -->
+              <div
+                style="display: flex; flex-direction: column; gap: 24px"
+                class=""
               >
-                Se connecter
-              </p>
-              <p
-                class="text-dark fs-6 fw-normal font-family-Montserrat col-12 m-0 px-3 py-2"
-              >
-                Continuez votre inscription avec Facebook.
-                <br />
-              </p>
-            </div>
-            <div class="col-md-9 row d-flex">
-              <div class="col-12 row d-flex">
                 <div
                   class="col-12 row justify-content-center align-items-center d-flex"
                 >
@@ -63,15 +73,12 @@
                   >
                     Email ou nom d’utilisateur
                   </p>
-                  <div
-                    class="px-1 py-1 bg-light rounded-1 col-12 align-items-center"
-                  >
-                    <p
-                      class="text-dark fs-6 fw-normal font-family-Gotham col-1 m-0 px-3 py-2"
-                    >
-                      Email
-                    </p>
-                  </div>
+                  <input
+                    style="border: 1px solid gray; border-radius: 8px"
+                    class="text-black fs-6 fw-normal font-family-Gotham col-12 m-0 px-3 py-4"
+                    type="text"
+                    placeholder="Email ou nom d’utilisateur"
+                  />
                 </div>
                 <div
                   class="col-12 row justify-content-center align-items-center d-flex"
@@ -81,40 +88,36 @@
                   >
                     Mot de passe
                   </p>
-                  <div
-                    class="px-1 py-1 bg-light rounded-1 col-12 align-items-center"
-                  >
-                    <p
-                      class="text-dark fs-6 fw-normal font-family-Gotham col-2 m-0 px-3 py-2"
-                    >
-                      Mot de passe
-                    </p>
-                  </div>
+                  <input
+                    style="border: 1px solid gray; border-radius: 8px"
+                    class="text-black fs-6 fw-normal font-family-Gotham col-12 m-0 px-3 py-4"
+                    type="password"
+                    placeholder="Mot de passe"
+                  />
                 </div>
               </div>
+
               <div
-                class="px-1 py-1 bg-primary rounded-3 col-12 justify-content-center align-items-center"
+                style="border-radius: 44px; width: 100%"
+                class="bg-primary border border-1 border-white border-opacity-50 col-xxl-3 row justify-content-center align-items-center"
               >
-                <p
-                  class="text-white fs-6 fw-bold font-family-Gotham col-2 m-0 px-3 py-2"
+                <a
+                  href="login.html"
+                  style="text-decoration: none"
+                  class="text-center text-white p-4 fs-6 fw-normal font-family-Gotham col-9 m-0"
                 >
-                  Se connecter
-                </p>
+                  Connecter avec Facebook
+                </a>
               </div>
             </div>
-            <div
-              class="col-md-3 row justify-content-center align-items-center d-flex"
-            >
-              <p
-                class="text-secondary fs-6 fw-normal font-family-Gotham col-12 m-0 px-3 py-2"
+            <div style="width: 100%" class="col-md-3">
+              <a
+                href="index.html#about"
+                style="text-decoration: none;"
+                class="text-secondary text-center fs-6 fw-normal font-family-Gotham col-12 m-0 px-3 py-2"
               >
-                Vous avez déjà un compte?
-              </p>
-              <p
-                class="text-primary fs-6 fw-bold font-family-Gotham col-6 m-0 px-3 py-2"
-              >
-                Se connecter
-              </p>
+                En savoir plus ?
+              </a>
             </div>
           </div>
         </div>
